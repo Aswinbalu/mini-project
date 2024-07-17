@@ -1,0 +1,54 @@
+<table id="input">
+<button onclick="add()">save</button>
+<table border="1">
+    <tr>
+        <td>Name</td>
+        <td><input type="text"></td>
+    </tr>
+    <tr>
+        <td>Age</td>
+        <td><input type="number"></td>
+    </tr>
+    <tr>
+        <td>Gender</td>
+        <td><input type="radio">Male<input type="radio">Female</td>
+    </tr>
+    <tr>
+        <td>Course</td>
+        <td>
+            <select>
+                <option>Java</option>
+                <option>c</option>
+                <option>python</option>
+                <option>Javascript</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>E-mail</td>
+        <td><input type="text"></td>
+    </tr>
+    <tr>
+        <td><input type="submit"></td>
+    </tr>
+</table>
+<script>
+function add()
+    {
+      var listitem = document.createElement("li")
+      listitem.innerHTML=input.value 
+      ul.append(listitem)
+    }
+</script>
+<table border="1">
+    <tr>
+        <td>Name</td>
+        <td>Age</td>
+        <td>Course</td>
+        <td>Gender</td>
+        <td>Email</td>
+        <td>Action</td>
+        
+    </tr>
+
+</table>
